@@ -1,0 +1,6 @@
+{
+  "name": "Modul Interaktif & Draf Google Sites: Beriman Kepada Kitab Tahun 4",
+  "description": "Draf lengkap isi kandungan, aktiviti interaktif, dan panduan reka bentuk Google Sites Pendidikan Islam Tahun 3 (Beriman Kepada Kitab).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-arabic {
+    font-family: 'Amiri', 'Scheherazade New', serif;
+  }
+  .bold-box {
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+  .bold-box-sm {
+    border: 2px solid #000000;
+    box-shadow: 2.5px 2.5px 0px 0px #000000;
+  }
+  .bold-box-lg {
+    border: 3.5px solid #000000;
+    box-shadow: 6px 6px 0px 0px #000000;
+  }
+  .bold-btn {
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 0px 0px #000000;
+    transition: all 0.12s ease;
+  }
+  .bold-btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+  .bold-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0px 0px #000000;
+  }
+  .cotton-candy-bg {
+    background: linear-gradient(135deg, #FFF0F5 0%, #FFDEEB 50%, #FFD1E6 100%);
+  }
+  .pink-pekat-box {
+    background-color: #FF1493;
+    color: #FFFFFF;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
